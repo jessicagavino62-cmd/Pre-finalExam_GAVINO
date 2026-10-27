@@ -1,0 +1,113 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.product-form {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  color: #495057;
+}
+
+.form-group input {
+  padding: 0.6rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.add-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-btn:hover {
+  background-color: #218838;
+}
+
+.filter-section {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #495057;
+}
+
+.filter-section select {
+  padding: 0.4rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.product-table th, .product-table td {
+  border: 1px solid #dee2e6;
+  padding: 0.75rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.product-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Conditional Formatting para sa Low Stock (< 5)[span_1](start_span)[span_1](end_span) */
+.low-stock-row {
+  background-color: #fff3cd !important; /* Light yellow warning background */
+}
+
+.low-stock-badge {
+  background-color: #dc3545;
+  color: white;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  display: inline-block;
+}
+
+.total-label {
+  font-weight: bold;
+  text-align: right;
+}
+
+.total-value {
+  font-weight: bold;
+  color: #dc3545;
+}
